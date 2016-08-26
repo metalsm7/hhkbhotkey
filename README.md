@@ -1,6 +1,6 @@
 # hhkbhotkey
-auto hot key for hhkb in windows
-
+## auto hot key for hhkb in windows
+<pre><code>
 LWin::
 #::
 
@@ -158,3 +158,4 @@ LWin & .::
 		}
 	}
 return
+</code></pre>
