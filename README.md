@@ -1,5 +1,6 @@
 # hhkbhotkey
 ## auto hot key for hhkb in windows
+## Karabiner-Element -> hhkb2.json
 <pre><code>
 LWin::
 ;#::
