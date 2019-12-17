@@ -72,7 +72,7 @@ LWin & 9::        Send {Blind}{LWin up}{F9}
 LWin & 0::        Send {Blind}{LWin up}{F10}
 LWin & -::        Send {Blind}{LWin up}{F11}
 LWin & =::        Send {Blind}{LWin up}{F12}
-LWin & Tab::	Send {Blind}{LWin up}S{Insert}
+LWin & Tab::	Send {Blind}{LWin up}{Insert}
 LWin & BackSpace::  Send {Blind}{LWin up}{Delete}
 LWin::
 return
