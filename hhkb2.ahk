@@ -72,8 +72,10 @@ LWin & 9::        Send {Blind}{LWin up}{F9}
 LWin & 0::        Send {Blind}{LWin up}{F10}
 LWin & -::        Send {Blind}{LWin up}{F11}
 LWin & =::        Send {Blind}{LWin up}{F12}
-LWin & Tab::	Send {Blind}{LWin up}{Insert}
+LWin & Tab::	Send {Blind}{LWin up}S{Insert}
 LWin & BackSpace::  Send {Blind}{LWin up}{Delete}
+LWin::
+return
 ;RShift & Esc::      DllCall("PowrProf\SetSuspendState", "int", 0, "int", 0, "int", 0)   ; suspend(sleep)
 ;RShift & a::        Send {vkAEsc12E}        ; Vol Down
 ;RShift & s::        Send {vkAFsc130}        ; Vol Up
